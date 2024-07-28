@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid cols</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="grid grid-cols-3 gap-3 *:text-center">
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box1</div>
+      <div class="col-span-2 bg-green-600 m-2 p-2 rounded-lg">Box2</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box3</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box4</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box5</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+      <div class="col-span-3 bg-green-600 m-2 p-2 rounded-lg">Box5</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+    </div>
+    <hr />
+    <hr />
+
+    <div class="grid grid-cols-6 gap-4">
+      <div class="col-start-2 col-span-3 bg-green-600 m-2 p-2 rounded-lg">
+        Box1
+      </div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box2</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box3</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box4</div>
+    </div>
+  </body>
+</html>

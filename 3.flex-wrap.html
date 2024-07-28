@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex wrap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-center mt-4">Flex No wrap</h1>
+    <div
+      class="flex flex-nowrap border-4 border-indigo-500/100 *:w-[100px] *:text-center"
+    >
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box1</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box2</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box3</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box4</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box5</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+      <div class="bg-green-600 m-2 p-2 rounded-lg">Box6</div>
+    </div>
+    <h1 class="text-center mt-4">Flex wrap</h1>
+    <div
+      class="flex flex-wrap border-4 border-rose-500/100 mt-6 *:w-[100px] *:text-center"
+    >
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box1</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box2</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box3<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box4<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box5<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box6<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box7<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box8<</div>
+    </div>
+
+    <h1 class="text-center mt-4">Flex wrap Reverse</h1>
+    <div
+      class="flex flex-wrap-reverse border-4 border-rose-500/100 mt-6 *:w-[100px] *:text-center"
+    >
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box1</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box2</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box3<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box4<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box5<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box6<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box7<</div>
+      <div class="bg-blue-700 m-2 p-2 rounded-md">Box8<</div>
+    </div>
+  </body>
+</html>
